@@ -20,8 +20,14 @@ RGB values, and annotations use seven semantic classes:
 | 5 | parapet |
 | 6 | other |
 
-The dataset is not distributed in this repository. After obtaining it, keep
-the following directory layout:
+The dataset is not distributed in this repository. CTW3D-Parts can be downloaded
+from Baidu Netdisk:
+
+- Dataset: **CTW3D-Parts**
+- Download: [Baidu Netdisk / 百度网盘](https://pan.baidu.com/s/1A5E8chZOPFXzT2rSiahwoA?pwd=w225)
+- Extraction code / 提取码: `w225`
+
+After downloading and extracting the dataset, keep the following directory layout:
 
 ```text
 CTW3D-Parts/
