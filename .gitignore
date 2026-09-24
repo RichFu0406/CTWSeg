@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Native extensions
+*.so
+lib/pointops/build/
+lib/pointops/dist/
+
+# Local tools
+.claude/
+.idea/
+.vscode/
+
+# Datasets and generated arrays
+data/
+dataset/
+*.npy
+
+# Experiments and model artifacts
+results/
+runs/
+checkpoints/
+*.pth
+*.pt
+*.pickle
+*.obj
+events.out.tfevents.*
+
+# Logs and local configuration
+*.log
+.env

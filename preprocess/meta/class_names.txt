@@ -1,0 +1,7 @@
+slope
+citygates
+wall
+promenade
+crenellation
+parapet
+other
