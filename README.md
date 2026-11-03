@@ -5,39 +5,6 @@ of the CTW3D-Parts point-cloud dataset. It provides a complete pipeline for
 converting the released annotations, training with sparse point labels, and
 evaluating predictions with an Area-based split.
 
-## Dataset
-
-CTW3D-Parts contains 24 scenes grouped into six Areas. Each point has XYZ and
-RGB values, and annotations use seven semantic classes:
-
-| ID | Class |
-|---:|---|
-| 0 | slope |
-| 1 | citygates |
-| 2 | wall |
-| 3 | promenade |
-| 4 | crenellation |
-| 5 | parapet |
-| 6 | other |
-
-```text
-CTW3D-Parts/
-├── Area_1/
-│   ├── 1/
-│   │   ├── 1.txt
-│   │   └── Annotations/
-│   │       ├── wall_1.txt
-│   │       └── ...
-│   └── ...
-├── Area_2/
-└── ...
-```
-
-Every text file stores `x y z r g b`, one point per line. The class of an
-annotation file is determined by its filename prefix. The canonical scene list
-and label order are defined in `preprocess/meta/anno_paths.txt` and
-`preprocess/meta/class_names.txt`.
-
 ## Installation
 
 The reference environment uses Ubuntu 20.04, Python 3.7, PyTorch 1.10.1, and
